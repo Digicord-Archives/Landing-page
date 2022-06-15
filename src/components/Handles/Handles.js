@@ -2,27 +2,25 @@ import React from 'react'
 import '../Handles/Handles.css'
 import { Instagram,
         Facebook,
-        Youtube,
+        Linkedin,
         Twitter,
         Whatsapp} from 'react-bootstrap-icons'
 const Handles = () => {
   return (
     <div className='social__media--icons'>
-      <div>
+      <a href='https://www.instagram.com/invites/contact/?i=188vqiv9ez55j&utm_content=ogv8vk5'>
         <Instagram/>
-      </div>
-      <div>
-        <Facebook />
-      </div>
-      <div>
-        <Youtube/>
-      </div>
-      <div>
+      </a>
+      <a href='https://www.facebook.com/digicord4/'>
+        <Facebook/>
+      </a>
+      <a href='https://www.linkedin.com/in/digicord-nig'>
+        <Linkedin />
+      </a>
+      <a href='https://twitter.com/DIGI_CORD?s=09'>
         <Twitter />
-      </div>
-      <div>
-        <Whatsapp />
-      </div>
+      </a>
+      {/*  */}
     </div>
   )
 }
