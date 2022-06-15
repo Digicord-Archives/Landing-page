@@ -4,9 +4,12 @@ import './timer.css'
 
 
 const Timer = () => {
-  const Thirty_five_days_ms = 35*24*60*60*1000;
-  const Now_ms = new Date().getTime();
-  const Total_time_for_coming_soon = Thirty_five_days_ms + Now_ms;
+  var countdownTarget = Date.UTC(2022, 7, 18, 8);
+
+  const Thirty_one_days_ms = 31*24*60*60*1000;
+  // const Now_ms = new Date().getTime();
+  const Total_time_for_coming_soon = countdownTarget - Thirty_one_days_ms;
+ 
 
   return (
     <div className='timer'>
