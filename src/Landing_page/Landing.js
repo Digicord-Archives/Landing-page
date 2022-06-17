@@ -2,7 +2,7 @@ import React from 'react'
 import Text1 from '../components/Text1/Text1'
 import Text2 from '../components/Text2/Text2'
 import Handles from '../components/Handles/Handles'
-// import Newsletter from '../components/NewsLetter/Newsletter'
+import Newsletter from '../components/Newsletter/Newsletter'
 import Timer from '../components/Timer/Timer'
 import logo from '../assets/images/logo.png'
 import './Landing.css'
@@ -38,10 +38,10 @@ const Landing = () => {
             <Handles></Handles>
           </div>
 
-          {/* NewsLetter 
+          {/* NewsLetter  */}
           <div className='Newsletter'>
-            <Newsletter></Newsletter>
-          </div> */}
+            <Newsletter />
+          </div>
         </div>
 
         <div className='container-div div2'>
