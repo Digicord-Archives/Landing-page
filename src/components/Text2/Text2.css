@@ -1,8 +1,16 @@
-.Text2 p{
+.Text2 {
     font-size: 1rem;
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0.5em 0 0 0;
+    margin: 0.375em 0 0 0;
     padding: 0;
-
+    width: 100%;
+    line-height: 20px;
+    /* text-align: center; */
+    }
+    .Text2 p {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: 0.125em;
+        color: darkgreen;
     }

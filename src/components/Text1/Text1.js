@@ -4,9 +4,9 @@ import './Text1.css'
 const Text1 = () => {
   return (
     <div className='Text1'>
-    <h3>Stay Tuned <br /> Our New Website Is</h3>
-    <br />
-    <h1>COMING SOON!!</h1>
+    <h5>Worry no more!!!</h5>
+    <h3> <b>DIGICORD</b> Your No.1 Medical Record Bank</h3>
+    <h1>IS LAUNCHING SOON!!</h1>
   </div>
   )
 }

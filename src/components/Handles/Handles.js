@@ -8,16 +8,16 @@ const Handles = () => {
   return (
     <div className='social__media--icons'>
       <a href='https://www.instagram.com/invites/contact/?i=188vqiv9ez55j&utm_content=ogv8vk5'>
-        <Instagram/>
+        <Instagram className='icon'/>
       </a>
       <a href='https://www.facebook.com/digicord4/'>
-        <Facebook/>
+        <Facebook className='icon'/>
       </a>
       <a href='https://www.linkedin.com/in/digicord-nig'>
-        <Linkedin />
+        <Linkedin className='icon'/>
       </a>
       <a href='https://twitter.com/DIGI_CORD?s=09'>
-        <Twitter />
+        <Twitter className='icon'/>
       </a>
       {/*  */}
     </div>

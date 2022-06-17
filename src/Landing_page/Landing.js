@@ -15,7 +15,7 @@ const Landing = () => {
         <div className='container-div div1'>
           {/* Logo  */}
           <div className='logo'>
-            <img src={logo} alt='Logo'></img>
+            <img src={logo} alt='Logo'/>
           </div>
 
           {/* Text1  */}

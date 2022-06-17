@@ -1,5 +1,16 @@
 .social__media--icons{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 0.375em;
+}
+
+.social__media--icons a{
+    text-decoration: none;
+}
+
+.icon {
+    color: rgb(3, 3, 71);
+    font-size: 20px;
+
 }
