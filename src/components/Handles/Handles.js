@@ -3,8 +3,7 @@ import '../Handles/Handles.css'
 import { Instagram,
         Facebook,
         Linkedin,
-        Twitter,
-        Whatsapp} from 'react-bootstrap-icons'
+        Twitter } from 'react-bootstrap-icons'
 const Handles = () => {
   return (
     <div className='social__media--icons'>
