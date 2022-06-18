@@ -1,0 +1,49 @@
+.landingPage-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.landingPage-header img {
+    width: auto;
+    height: 100px;
+}
+
+.landingPage-header-links {
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+.landingPage-header-links a {
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    height: fit-content;
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.landingPage-header-links a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 600px) {
+    .landingPage-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .landingPage-header-links {
+        padding-top: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,70 @@
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 0px 10px rgba(4, 0, 114, 0.1);
+}
+
+.newsletter-header {
+  color: rgba(4, 0, 114, 1);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.newsletter-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.newsletter-inputs input {
+  width: 280px;
+  border: 0px;
+  outline: none;
+  background: rgba(0, 0, 0, 0.125);
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter-inputs input::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.newsletter-inputs button {
+  border: 0px;
+  outline: none;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background: rgba(8, 128, 54, 0.85);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.newsletter-inputs button:hover {
+  background: rgba(8, 128, 54, 1);
+}
+
+.newsletter-info {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.85rem;
+  text-align: center;
+  width: 30ch;
+}
+
+@media screen and (max-width: 600px) {
+    .newsletter-form {
+        padding: 1rem 1.5rem;
+    }
+}
