@@ -28,8 +28,7 @@ function App() {
                 propertyId="62a5db05b0d10b6f3e76eb85"
                 widgetId="1g5btv4vq"
                 onLoad={onLoad} 
-                ref={tawkMessengerRef}/>
-                  
+                ref={tawkMessengerRef}/>        
     </div>
   );
 }
