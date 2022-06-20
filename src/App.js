@@ -29,6 +29,7 @@ function App() {
                 widgetId="1g5btv4vq"
                 onLoad={onLoad} 
                 ref={tawkMessengerRef}/>
+                  
     </div>
   );
 }
