@@ -6,7 +6,7 @@ import Newsletter from "./components/Newsletter/Newsletter";
 
 import "./LandingPage.css";
 
-const LandingPage = () => {
+const LandingPage = ({props}) => {
   return (
     <div className="landingPage">
       <div className="landingPage-overlay">
