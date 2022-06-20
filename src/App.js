@@ -22,7 +22,9 @@ function App() {
     <div className="App">
       <LandingPage/>
 
-      <button onClick={handleMinimize}> Minimize the Chat </button>
+      <button onClick={handleMinimize}>
+         Minimize the Chat 
+      </button>
       
       <TawkMessengerReact
                 propertyId="62a5db05b0d10b6f3e76eb85"
