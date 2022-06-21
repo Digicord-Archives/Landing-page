@@ -15,32 +15,20 @@ const Newsletter = ({props}) => {
 		fields= {[
 			{
 				name:'FNAME',
-				placeholder: 'First Name',
+				placeholder: 'Your Name',
 				type:'text',
 				required: true,
 				validate: true
 			},
-			{
-				name:'LNAME',
-				placeholder: 'Last Name',
-				type:'text',
-				required: true,
-				validate: true
-			},
+	
 			{
 				name:'EMAIL',
-				placeholder: 'Email',
+				placeholder: 'Your Email',
 				type:'text',
 				required: true,
 				validate: true
 			},
-			{
-				name:'PHONE',
-				placeholder: 'Phone Number',
-				type:'text',
-				required: true,
-				validate: true
-			}
+		
 
 
 		]}
